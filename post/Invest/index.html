@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>投资纪实 | Gridea</title>
+<meta name="description" content="一只废叉">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://whthend.github.io/favicon.ico?v=1565255168883">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://whthend.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://whthend.github.io">
+        <img src="http://whthend.github.io/images/avatar.png?v=1565255168883" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/post/BookList/" class="site-nav">
+            书单
+          </a>
+        
+      
+        
+          <a href="/post/Invest/" class="site-nav">
+            投资
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      一只废叉
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://whthend.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">投资纪实</h2>
+            <div class="post-date">2019-08-08</div>
+            
+            <div class="post-content">
+              <p>9012年3月31日，愚人节前一天，重开了博客。记住，这是一个企图通过投资实现财务自由的小垃圾的投资纪实，不要妄想从这里得到什么有用的信息。<br>
+此贴用于记录个人的投资实践情况，暂时会包括市值、定投和网格。具体的操作不会进行说明解释，仅作记录而已</p>
+<hr>
+<h2 id="市值计划">市值计划：</h2>
+<p>传媒etf (512980)和环保etf (512580)。每隔一段时间进行一次平衡操作</p>
+<p>512980：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>实际市值</th>
+<th>本期买卖市值</th>
+<th>调整后市值</th>
+<th>下期涨幅</th>
+<th>下期应有市值</th>
+<th>本期买卖股数</th>
+<th>本期持有股数</th>
+<th>本期价格</th>
+<th>成本</th>
+<th>总成本</th>
+<th>盈亏</th>
+<th>持有现金</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019/3/5</td>
+<td>11768.30</td>
+<td>11768.30</td>
+<td>11768.30</td>
+<td>3.20%</td>
+<td>12144.89</td>
+<td>13700</td>
+<td>13700</td>
+<td>0.855</td>
+<td>0.855</td>
+<td>11713.50</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2019/5/7（临）</td>
+<td>10309.70</td>
+<td>2232.00</td>
+<td>12541.70</td>
+<td>3.00%</td>
+<td>12917.95</td>
+<td>3000</td>
+<td>16700</td>
+<td>0.744</td>
+<td>0.835</td>
+<td>13944.50</td>
+<td>-10.060%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>512580：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>实际市值</th>
+<th>本期买卖市值</th>
+<th>调整后市值</th>
+<th>下期涨幅</th>
+<th>下期应有市值</th>
+<th>本期买卖股数</th>
+<th>本期持有股数</th>
+<th>本期价格</th>
+<th>成本</th>
+<th>总成本</th>
+<th>盈亏</th>
+<th>持有现金</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019/3/5</td>
+<td>10126.50</td>
+<td>10126.50</td>
+<td>10126.50</td>
+<td>3.20%</td>
+<td>10450.55</td>
+<td>12900</td>
+<td>12900</td>
+<td>0.785</td>
+<td>0.785</td>
+<td>10126.50</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="定投">定投</h2>
+<p>中证500定投：根据股指估值，中证500在3月29日的估值为26.09，五/十年平均约为36。当估值超过平均值后，不在进行定投，根据策略进行卖出操作。<br>
+时间是每个月末27/26号，月中看心情。</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>品种</th>
+<th>日期</th>
+<th>单价</th>
+<th>份额</th>
+<th>金额</th>
+<th>总份额</th>
+<th>现有市值</th>
+<th>总投入</th>
+<th>盈亏</th>
+<th>估值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>160119</td>
+<td>南方中证500</td>
+<td>2019/02/27</td>
+<td>1.2715</td>
+<td>392.76</td>
+<td>499.40</td>
+<td>392.76</td>
+<td>499.40</td>
+<td>499.40</td>
+<td>0.00%</td>
+<td>22.47</td>
+</tr>
+<tr>
+<td>160119</td>
+<td>南方中证500</td>
+<td>2019/03/19</td>
+<td>1.3880</td>
+<td>359.80</td>
+<td>499.40</td>
+<td>752.56</td>
+<td>1045.16</td>
+<td>998.80</td>
+<td>4.64%</td>
+<td>25.57</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/04/01</td>
+<td>1.4445</td>
+<td>691.21</td>
+<td>998.80</td>
+<td>1443.77</td>
+<td>2087.07</td>
+<td>1997.60</td>
+<td>4.48%</td>
+<td>27.30</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/04/26</td>
+<td>1.3628</td>
+<td>732.90</td>
+<td>998.80</td>
+<td>2966.69</td>
+<td>2966.69</td>
+<td>2996.40</td>
+<td>-0.99%</td>
+<td>25.54</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/05/23</td>
+<td>1.2283</td>
+<td>813.16</td>
+<td>998.80</td>
+<td>3779.85</td>
+<td>3672.70</td>
+<td>3995.20</td>
+<td>-8.18%</td>
+<td>23.46</td>
+</tr>
+</tbody>
+</table>
+<h3 id="网格">网格</h3>
+<p>现在主要开了华宝油气和黄金ETF的网格计划。下边是黄金的……</p>
+<table>
+<thead>
+<tr>
+<th>买入价格</th>
+<th>卖出价格</th>
+<th>幅度</th>
+<th>实际价格</th>
+<th>买入份额</th>
+<th>买入金额</th>
+<th>是否加仓</th>
+<th>加仓幅度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.853</td>
+<td></td>
+<td>1.000</td>
+<td>2.853</td>
+<td>200</td>
+<td>¥  570.60</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2.790</td>
+<td>2.853</td>
+<td>0.978</td>
+<td>2.782</td>
+<td>300</td>
+<td>¥  833.50</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://whthend.github.io/post/BookList">
+                  <h3 class="post-title">
+                    书单
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
