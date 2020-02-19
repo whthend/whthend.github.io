@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://whthend.github.io/favicon.ico?v=1568809794473">
+<link rel="shortcut icon" href="https://whthend.github.io/favicon.ico?v=1582084662039">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://whthend.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://whthend.github.io">
-        <img src="https://whthend.github.io/images/avatar.png?v=1568809794473" class="site-logo">
+        <img src="https://whthend.github.io/images/avatar.png?v=1582084662039" class="site-logo">
         <h1 class="site-title">XX的个人小站</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -126,10 +126,8 @@
 <th>本期买卖股数</th>
 <th>本期持有股数</th>
 <th>本期价格</th>
-<th>成本</th>
 <th>总成本</th>
 <th>盈亏</th>
-<th>持有现金</th>
 </tr>
 </thead>
 <tbody>
@@ -143,9 +141,7 @@
 <td>13700</td>
 <td>13700</td>
 <td>0.855</td>
-<td>0.855</td>
-<td>11713.50</td>
-<td></td>
+<td>11716.44</td>
 <td></td>
 </tr>
 <tr>
@@ -158,10 +154,60 @@
 <td>3000</td>
 <td>16700</td>
 <td>0.744</td>
-<td>0.835</td>
-<td>13944.50</td>
-<td>-10.060%</td>
-<td></td>
+<td>13949.00</td>
+<td>-10.089%</td>
+</tr>
+<tr>
+<td>2019/6/5</td>
+<td>11873.70</td>
+<td>1060.50</td>
+<td>12934.20</td>
+<td>3.00%</td>
+<td>13322.23</td>
+<td>1500</td>
+<td>18200</td>
+<td>0.707</td>
+<td>15009.50</td>
+<td>-13.827%</td>
+</tr>
+<tr>
+<td>2019/9/5</td>
+<td>14050.40</td>
+<td>-694.80</td>
+<td>13355.60</td>
+<td>3.00%</td>
+<td>13756.27</td>
+<td>-900</td>
+<td>17300</td>
+<td>0.772</td>
+<td>15009.50</td>
+<td>-6.700%</td>
+</tr>
+<tr>
+<td>2019/12/5</td>
+<td>13199.90</td>
+<td>610.40</td>
+<td>13810.30</td>
+<td>3.00%</td>
+<td>14224.61</td>
+<td>800</td>
+<td>18100</td>
+<td>0.763</td>
+<td>15009.50</td>
+<td>-7.469%</td>
+</tr>
+<tr>
+<td>2020/1/6（临)</td>
+<td>16489.10</td>
+<td>-1913.10</td>
+<td>14576.00</td>
+<td>1.00%</td>
+<td>14721.76</td>
+<td>-2100</td>
+<td>16000</td>
+<td>0.911</td>
+<td>15009.50</td>
+<td>12.020%</td>
 </tr>
 </tbody>
 </table>
@@ -181,7 +227,6 @@
 <th>成本</th>
 <th>总成本</th>
 <th>盈亏</th>
-<th>持有现金</th>
 </tr>
 </thead>
 <tbody>
@@ -198,13 +243,54 @@
 <td>0.785</td>
 <td>10126.50</td>
 <td></td>
-<td></td>
+</tr>
+<tr>
+<td>2019/6/5</td>
+<td>9275.10</td>
+<td>1150.40</td>
+<td>10425.50</td>
+<td>3.20%</td>
+<td>10759.12</td>
+<td>1600</td>
+<td>14500</td>
+<td>0.719</td>
+<td>0.778</td>
+<td>11276.90</td>
+<td>-7.55%</td>
+</tr>
+<tr>
+<td>2019/9/5</td>
+<td>10875.00</td>
+<td>0.00</td>
+<td>10875.00</td>
+<td>3.00%</td>
+<td>11201.25</td>
+<td>0</td>
+<td>14500</td>
+<td>0.750</td>
+<td>0.778</td>
+<td>11276.90</td>
+<td>-3.56%</td>
+</tr>
+<tr>
+<td>2019/12/5</td>
+<td>10730.00</td>
+<td>518.00</td>
+<td>11248.00</td>
+<td>3.00%</td>
+<td>11585.44</td>
+<td>700</td>
+<td>15200</td>
+<td>0.740</td>
+<td>0.776</td>
+<td>11794.90</td>
+<td>-4.64%</td>
 </tr>
 </tbody>
 </table>
 <h2 id="定投">定投</h2>
 <p>中证500定投：根据股指估值，中证500在3月29日的估值为26.09，五/十年平均约为36。当估值超过平均值后，不在进行定投，根据策略进行卖出操作。<br>
-时间是每个月末27/26号，月中看心情。</p>
+定投时间：月末25号。</p>
 <table>
 <thead>
 <tr>
@@ -313,6 +399,84 @@
 <td>-4.61%</td>
 <td>22.54</td>
 </tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/08/26</td>
+<td>1.2422</td>
+<td>804.06</td>
+<td>1000.00</td>
+<td>5385.95</td>
+<td>6690.43</td>
+<td>7000.00</td>
+<td>-4.42%</td>
+<td>22.60</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/09/25</td>
+<td>1.2990</td>
+<td>768.90</td>
+<td>1000.00</td>
+<td>6154.85</td>
+<td>7995.15</td>
+<td>8000.00</td>
+<td>-0.06%</td>
+<td>23.04</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/10/25</td>
+<td>1.2763</td>
+<td>782.57</td>
+<td>1000.00</td>
+<td>6937.42</td>
+<td>8854.23</td>
+<td>9000.00</td>
+<td>-1.62%</td>
+<td>22.75</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/11/25</td>
+<td>1.2542</td>
+<td>796.36</td>
+<td>1000.00</td>
+<td>7733.78</td>
+<td>9699.71</td>
+<td>10000.00</td>
+<td>-3.00%</td>
+<td>21.91</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2019/12/25</td>
+<td>1.3253</td>
+<td>753.64</td>
+<td>1000.00</td>
+<td>8487.42</td>
+<td>11248.38</td>
+<td>11000.00</td>
+<td>2.26%</td>
+<td>23.66</td>
+</tr>
+<tr>
+<td>160120</td>
+<td>南方中证500</td>
+<td>2020/02/03</td>
+<td>1.2589</td>
+<td>793.39</td>
+<td>1000.00</td>
+<td>9280.81</td>
+<td>11683.61</td>
+<td>12000.00</td>
+<td>-2.64%</td>
+<td>22.75</td>
+</tr>
 </tbody>
 </table>
 
@@ -321,7 +485,7 @@
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://whthend.github.io/post/BookList">
+                <a href="https://whthend.github.io/post/BookList/">
                   <h3 class="post-title">
                     书单
                   </h3>
