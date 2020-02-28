@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://whthend.github.io/favicon.ico?v=1582084662039">
+<link rel="shortcut icon" href="https://whthend.github.io/favicon.ico?v=1582879818244">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://whthend.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://whthend.github.io">
-        <img src="https://whthend.github.io/images/avatar.png?v=1582084662039" class="site-logo">
+        <img src="https://whthend.github.io/images/avatar.png?v=1582879818244" class="site-logo">
         <h1 class="site-title">XX的个人小站</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -202,7 +202,7 @@
 <td>-1913.10</td>
 <td>14576.00</td>
 <td>1.00%</td>
-<td>14721.76</td>
+<td>14224.61</td>
 <td>-2100</td>
 <td>16000</td>
 <td>0.911</td>
@@ -224,8 +224,8 @@
 <th>本期买卖股数</th>
 <th>本期持有股数</th>
 <th>本期价格</th>
-<th>成本</th>
 <th>总成本</th>
+<th>持有现金</th>
 <th>盈亏</th>
 </tr>
 </thead>
@@ -240,8 +240,8 @@
 <td>12900</td>
 <td>12900</td>
 <td>0.785</td>
-<td>0.785</td>
 <td>10126.50</td>
+<td>0.00</td>
 <td></td>
 </tr>
 <tr>
@@ -254,8 +254,8 @@
 <td>1600</td>
 <td>14500</td>
 <td>0.719</td>
-<td>0.778</td>
 <td>11276.90</td>
+<td>0.00</td>
 <td>-7.55%</td>
 </tr>
 <tr>
@@ -268,8 +268,8 @@
 <td>0</td>
 <td>14500</td>
 <td>0.750</td>
-<td>0.778</td>
 <td>11276.90</td>
+<td>0.00</td>
 <td>-3.56%</td>
 </tr>
 <tr>
@@ -282,9 +282,23 @@
 <td>700</td>
 <td>15200</td>
 <td>0.740</td>
-<td>0.776</td>
 <td>11794.90</td>
+<td>0.00</td>
 <td>-4.64%</td>
+</tr>
+<tr>
+<td>2020/2/20（临）</td>
+<td>13421.60</td>
+<td>-1854.30</td>
+<td>11567.30</td>
+<td>1.00%</td>
+<td>11585.44</td>
+<td>-2100</td>
+<td>13100</td>
+<td>0.883</td>
+<td>11794.90</td>
+<td>1854.30</td>
+<td>16.36%</td>
 </tr>
 </tbody>
 </table>
@@ -294,8 +308,6 @@
 <table>
 <thead>
 <tr>
-<th>代码</th>
-<th>品种</th>
 <th>日期</th>
 <th>单价</th>
 <th>份额</th>
@@ -309,8 +321,6 @@
 </thead>
 <tbody>
 <tr>
-<td>160119</td>
-<td>南方中证500</td>
 <td>2019/02/27</td>
 <td>1.2715</td>
 <td>392.76</td>
@@ -322,8 +332,6 @@
 <td>22.47</td>
 </tr>
 <tr>
-<td>160119</td>
-<td>南方中证500</td>
 <td>2019/03/19</td>
 <td>1.3880</td>
 <td>359.80</td>
@@ -335,8 +343,6 @@
 <td>25.57</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/04/01</td>
 <td>1.4445</td>
 <td>691.45</td>
@@ -348,8 +354,6 @@
 <td>27.30</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/04/26</td>
 <td>1.3628</td>
 <td>732.90</td>
@@ -361,8 +365,6 @@
 <td>25.54</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/05/23</td>
 <td>1.2283</td>
 <td>813.16</td>
@@ -374,8 +376,6 @@
 <td>23.46</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/06/26</td>
 <td>1.2608</td>
 <td>792.20</td>
@@ -387,8 +387,6 @@
 <td>23.17</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/07/25</td>
 <td>1.2491</td>
 <td>799.62</td>
@@ -400,8 +398,6 @@
 <td>22.54</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/08/26</td>
 <td>1.2422</td>
 <td>804.06</td>
@@ -413,8 +409,6 @@
 <td>22.60</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/09/25</td>
 <td>1.2990</td>
 <td>768.90</td>
@@ -426,8 +420,6 @@
 <td>23.04</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/10/25</td>
 <td>1.2763</td>
 <td>782.57</td>
@@ -439,8 +431,6 @@
 <td>22.75</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/11/25</td>
 <td>1.2542</td>
 <td>796.36</td>
@@ -452,8 +442,6 @@
 <td>21.91</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2019/12/25</td>
 <td>1.3253</td>
 <td>753.64</td>
@@ -465,8 +453,6 @@
 <td>23.66</td>
 </tr>
 <tr>
-<td>160120</td>
-<td>南方中证500</td>
 <td>2020/02/03</td>
 <td>1.2589</td>
 <td>793.39</td>
@@ -476,6 +462,17 @@
 <td>12000.00</td>
 <td>-2.64%</td>
 <td>22.75</td>
+</tr>
+<tr>
+<td>2020/02/25</td>
+<td>1.4969</td>
+<td>667.25</td>
+<td>1000.00</td>
+<td>9948.06</td>
+<td>14891.25</td>
+<td>13000.00</td>
+<td>14.55%</td>
+<td>26.07</td>
 </tr>
 </tbody>
 </table>
